@@ -1,0 +1,20 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000a\u0000s\u0000s\u0000w\u0000o\u0000r\u0000d\u0000_\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sen-Se1/Password_Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sen-Se1/Password_Manager/issues"
+  },
+  "homepage": "https://github.com/Sen-Se1/Password_Manager#readme"
+}
