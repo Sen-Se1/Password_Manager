@@ -4,6 +4,8 @@
   "description": "��#\u0000 \u0000P\u0000a\u0000s\u0000s\u0000w\u0000o\u0000r\u0000d\u0000_\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "cross-env NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/Sen-Se1/Password_Manager/issues"
   },
-  "homepage": "https://github.com/Sen-Se1/Password_Manager#readme"
+  "homepage": "https://github.com/Sen-Se1/Password_Manager#readme",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
 }
